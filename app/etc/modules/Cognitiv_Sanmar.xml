@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Cognitiv_SanMar>
+            <codePool>local</codePool>
+            <active>true</active>
+        </Cognitiv_SanMar>
+    </modules>
+</config>

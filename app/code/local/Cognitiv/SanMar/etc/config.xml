@@ -1,0 +1,36 @@
+<?xml version="1.0.0"?>
+<!--
+ /**
+  *
+  *
+  * @package
+  * @category
+  */
+ -->
+<config>
+    <modules>
+        <Cognitiv_SanMar>
+            <version>1.0.0</version>
+        </Cognitiv_SanMar>
+    </modules>
+    <global>
+        <models>
+            <sanmar>
+                <class>Cognitiv_SanMar_Model</class>
+            </sanmar>
+        </models>
+        <blocks>
+            <sanmar>
+                <class>Cognitiv_SanMar_Block</class>
+            </sanmar>
+        </blocks>
+        <resources>
+            <sanmar_setup>
+                <setup>
+                    <module>Cognitiv_SanMar</module>
+                    <class>Cognitiv_SanMar_Model_Resource_Setup</class>
+                </setup>
+            </sanmar_setup>
+        </resources>
+    </global>
+</config>
