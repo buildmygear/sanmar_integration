@@ -6,6 +6,8 @@
  */
 
 /**
+ * Installed all text attributes
+ *
  * @var Fastgento_SanMar_Model_Resource_Setup $installer
  */
 
@@ -75,26 +77,6 @@ $installer->addAttribute('catalog_product', 'size', array(
 $installer->addAttribute('catalog_product', 'piece_weight', array(
     'type'                     => 'text',
     'label'                    => 'PIECE_WEIGHT',
-    'input'                    => 'text',
-    'required'                 => false,
-    'group'                    => $attributeGroupName,
-    'visible_on_front'         => true,
-    'is_visible'               => true,
-    'user_defined'             => true,
-));
-$installer->addAttribute('catalog_product', 'piece_price', array(
-    'type'                     => 'text',
-    'label'                    => 'PIECE_PRICE',
-    'input'                    => 'text',
-    'required'                 => false,
-    'group'                    => $attributeGroupName,
-    'visible_on_front'         => true,
-    'is_visible'               => true,
-    'user_defined'             => true,
-));
-$installer->addAttribute('catalog_product', 'dozen_price', array(
-    'type'                     => 'text',
-    'label'                    => 'DOZEN_PRICE',
     'input'                    => 'text',
     'required'                 => false,
     'group'                    => $attributeGroupName,

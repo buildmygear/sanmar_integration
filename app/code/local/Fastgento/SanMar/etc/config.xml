@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!--
  /**
+  * Main configuration file of SanMar integration extension.
   *
-  *
-  * @package
-  * @category
+  * @category    Fastgento_SanMar
+  * @package     SanMar
   */
  -->
 <config>
