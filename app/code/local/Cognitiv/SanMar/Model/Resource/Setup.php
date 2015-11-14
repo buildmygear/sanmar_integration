@@ -1,12 +1,12 @@
 <?php
 /**
  *
- * Cognitiv SanMar setup resource model
+ * Fastgento SanMar setup resource model
  *
- * @category Cognitiv
- * @package Cognitiv_SanMar
+ * @category Fastgento
+ * @package Fastgento_SanMar
  */
-class Cognitiv_SanMar_Model_Resource_Setup  extends Mage_Core_Model_Resource_Setup
+class Fastgento_SanMar_Model_Resource_Setup extends Mage_Eav_Model_Entity_Setup
 {
     /**
      * Create new attribute set
